@@ -35,7 +35,12 @@
                 height: 0;
                 overflow: hidden;
                 padding: 0 24px;
-                transition: height, .2s ease;
+                transition: height, .3s ease;
+                
+                li {
+                    list-style: disc;
+                    padding: 8px 0;
+                }
             }
 
             &--is-open {
@@ -46,7 +51,7 @@
                 .faq__questions__item__answer {
                     height: auto;
                     padding-bottom: 24px;
-                    transition: height, .2s ease;
+                    transition: height, .3s ease;
                 }
             }
         }
